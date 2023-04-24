@@ -8,11 +8,11 @@ El API soporta formato JSON.
 
 ## Documentación Postman
 
-https://onx.la/f820c
+https://documenter.getpostman.com/view/15109281/2s93Y5PfFb
 
 
 ## URL
-https://proyecto-geniat-node-production.up.railway.app/api
+https://proyecto-geniat-node-production.up.railway.app/api/
 
 ## Recursos
 
