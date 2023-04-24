@@ -7,7 +7,7 @@ const esRolValido = async(rol = '') => {
       id: rol
     }
    });
-  if ( !existeRol ) { 
+  if ( !existeRol ) {
       throw new Error(`El rol ${ rol } no está registrado en la BD`);
   }
 }

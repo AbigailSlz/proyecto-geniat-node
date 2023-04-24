@@ -5,7 +5,6 @@ const { check } = require('express-validator');
 const {
     validarCampos,
     validarJWT,
-    tieneRole,
     tieneRol
 } = require('../middlewares/index.js');
 

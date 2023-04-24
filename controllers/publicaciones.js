@@ -78,9 +78,6 @@ const publicacionesDelete = async(req, res = response) => {
     });
 }
 
-
-
-
 module.exports = {
     publicacionesGet,
     publicacionesPost,

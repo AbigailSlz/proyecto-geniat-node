@@ -3,6 +3,7 @@ const { response } = require('express')
 
 const tieneRol = ( ...roles  ) => {
     return (req, res = response, next) => {
+
         const rol = req.usuario.Role ? req.usuario.Role.rol: '';
 
         if ( !req.usuario ) {
