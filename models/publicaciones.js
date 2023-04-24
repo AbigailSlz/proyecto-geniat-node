@@ -9,14 +9,12 @@ const Publicaciones = db.define('Publicaciones', {
     descripcion: {
         type: DataTypes.STRING
     },
-    fecha_creacion: {
-        type: DataTypes.STRING
-    },
     id_usuario: {
         type: DataTypes.INTEGER
     },
     estado: {
-        type: DataTypes.INTEGER
+        type: DataTypes.INTEGER,
+        defaultValue: 1
     },
     createdAt: {
         type: DataTypes.DATE
